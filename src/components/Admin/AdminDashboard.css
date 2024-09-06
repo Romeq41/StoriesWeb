@@ -1,0 +1,88 @@
+.admin-view {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    margin: 10vw 0 10vw 0;
+    padding: 30px;
+    width: 40vw;
+    max-height: 80vh;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+}
+
+.admin-view h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.admin-view #unapprovedlist {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    max-height: 50vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+#unapprovedlist li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    margin: 0;
+    transition: background-color 300ms, box-shadow 300ms;
+}
+
+#unapprovedlist li:last-child {
+    border-bottom: none;
+}
+
+#unapprovedlist li:hover {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#approveStoryButton,
+#removeStoryButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 300ms;
+}
+
+#approveStoryButton {
+    background-color: #28a745;
+    color: white;
+    margin-right: 10px;
+}
+
+#approveStoryButton:hover {
+    background-color: #218838;
+}
+
+#removeStoryButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+#removeStoryButton:hover {
+    background-color: #a51e2b;
+    transition: all 300ms;
+}
+
+#emptyListNotification {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: #f8f9fa;
+    border: 2px dashed #ccc;
+}

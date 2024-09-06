@@ -1,0 +1,15 @@
+#StoriesHeader {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+}
+
+#Stories {
+    color: black;
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 10%;
+}

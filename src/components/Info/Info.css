@@ -1,0 +1,8 @@
+.info {
+    margin: 10% 0 10% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 70%;
+}

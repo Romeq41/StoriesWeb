@@ -1,0 +1,76 @@
+#pageTitle {
+    color: blanchedalmond;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sideButton {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    padding: 20px;
+    margin: 0;
+    color: white;
+    border: none;
+    overflow-y: auto;
+    transition: background-color 300ms, transform 300ms;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 20px 20px 20px;
+}
+
+.counter {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.sideMenu {
+    width: 320px;
+    height: 100% - 15px;
+    background-color: #2c3e50;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    z-index: 0;
+
+}
+
+.sideMenu.showSideMenu {
+    transform: translateX(0);
+    transition: transform 500ms ease-in;
+}
+
+.sideMenu.hideSideMenu {
+    transform: translateX(-100%);
+    transition: transform 500ms ease-out;
+}
+
+.hamburger-menu {
+    display: block;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    color: #2c3e50;
+}
+
+.hamburger-menu:hover {
+    color: blanchedalmond;
+    transition: all 150ms ease-in;
+
+}
+
+#sideMenuBurger {
+    color: blanchedalmond;
+}
